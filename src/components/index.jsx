@@ -1,0 +1,11 @@
+
+export {default as Footer} from './Footer/Footer'
+export {default as SocialLinks} from './Footer/SocialLinks'
+export {default as Hero} from './Hero/Hero'
+export {default as Portfolios} from './Portfolios/Portfolios'
+export {default as Portfolio} from './Portfolios/Portfolio'
+export {default as Services} from './Services/Services'
+export {default as Skills} from './Skills/Skills'
+export {default as Testimonials} from './Testimonials/Testomonials'
+export {default as Layout} from './Layout'
+export {default as Header} from './Header/Header'

@@ -1,0 +1,130 @@
+.skills-wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.skills-title{
+    max-width: 350px;
+    padding-top: 3rem;
+    margin: .1rem auto;
+    text-align: center;
+}
+
+.skills-title .skill-focus{
+    font-weight: 800;
+    font-size: var(--md);
+    color: var(--clr-acc);
+    text-transform: uppercase;
+}
+
+
+.skills-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    -ms-grid-rows: minmax(110px, auto);
+    grid-template-rows: minmax(110px, auto);
+    grid-auto-flow:dense;
+    grid-gap: .85rem;
+    max-width: 90%;
+    margin: 1.5rem auto 0 auto;
+    margin-top: 0;
+    padding: var(--fs-xl) 1rem;
+}
+
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .2rem;
+    border-radius: .75rem;
+}
+
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    color: white;
+    position: relative;
+}   
+
+
+.icon_box{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: var(--clr);
+}
+
+.icon-container span.icon{
+    font-size: var(--fs-l);
+    transition: .8s ease-in ;
+    border: 10px solid var(--clr-acc-light)
+}
+
+svg#progress{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+svg#progress circle{
+    fill: none;
+    stroke: var(--clr);
+    stroke-width: 20px;
+    stroke-dasharray: 246;
+    stroke-dashoffset: 246;
+    transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1) .2s;
+}
+
+.skill:hover .icon-container span.icon{
+    transform: rotateY(360deg);
+}
+
+.skill:hover svg#progress circle{
+    stroke-dashoffset: var(--offset)
+}
+
+
+.skill-name{
+    padding: .3rem .5rem;
+    margin: 1rem auto;
+    font-size: var(--fs-reg);
+    font-weight: 700;
+    text-align: center;
+    color: var(--clr);
+    background: transparent;
+    border: 2px solid var(--clr);
+    border-radius: 2rem;
+    letter-spacing: 2px;
+}
+
+
+
+@media (min-width: 900px){
+    .skills-container{
+        max-width: 65%;
+    }
+}

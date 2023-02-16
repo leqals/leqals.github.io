@@ -1,0 +1,125 @@
+.portfolio_page_container{
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin:4.5rem auto;
+    margin-left: 10vw;
+}
+
+.page_name{
+    margin: 3rem 0 0 15vw;
+    font-weight: 700;
+    color: var(--clr-acc-light);
+}
+
+.p_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 18rem;
+    max-width: 22rem;
+    height: 12rem;
+    padding: 1.3rem;
+    overflow: hidden;
+    border-radius: 1.1rem;
+    transition: .3s ease-in-out;
+    background: var(--clr-acc-light);
+}
+
+.p_container:nth-child(odd){
+    border-bottom-right-radius: 0.05rem;
+}
+
+.p_container:nth-child(even){
+    border-bottom-left-radius: 0.05rem;
+}
+
+.p_content{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.p_name{
+    color: #dfdfdf;
+    font-size: var(--fs-reg);
+    font-weight: 600;
+    max-width: 14rem;
+    min-width: 10rem;
+}
+
+.description{
+    color: #cdcddf;
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
+
+.portfolio_buttons{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .15rem .3rem;
+    border-radius: 1rem;
+    bottom: .5rem;
+    left: 0;
+}
+
+.port_btn{
+    color: var(--clr-light);
+    padding: .2rem .4rem;
+    font-weight: 500;
+    font-size: var(--fs-sm);
+    outline: none;
+    transition: .25s ease-out;
+}
+
+.port_btn_single{
+    background-color: #555074;
+    border-radius: 1rem
+}
+
+.port_btn:hover{
+    border: 2px solid var(--clr-acc);
+    background: transparent;
+}
+
+.portfolio_buttons .port_btn_left{
+    padding: .2rem .4rem;
+    background-color: #7973bb;
+    border-radius: 1rem .05rem .05rem 1rem;
+}
+
+.port_btn_right{
+    border-radius: .05rem 1rem 1rem .05rem;
+    background-color: #555074;
+}
+
+.p_info{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+@media (max-width: 1100px){
+    .portfolio_page_container{
+        margin: 5rem auto
+    }
+}
