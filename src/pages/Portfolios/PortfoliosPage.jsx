@@ -20,7 +20,7 @@ function PortfoliosPage() {
         </MetaTags>
 
         <div className="portfolio_page">
-          <h3 className="page_name">My Projects</h3>
+          <h3 className="page_name">PORTFOLIOS</h3>
           <div className="portfolio_page_container">
             {
               portfolios.map(port => <PortfolioContainer key={port.id} {...port}/>)

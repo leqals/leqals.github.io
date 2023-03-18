@@ -140,6 +140,18 @@
     }
 }
 
+@media (max-width: 760px){
+    
+    .services-container{
+        gap: 0;
+    }
+
+    .services-container > .service{
+        margin-top: 1rem;
+    }
+
+}
+
 @media (max-width: 420px){
     
     .service-card{

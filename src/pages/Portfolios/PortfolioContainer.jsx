@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { UseSetupPortfolio } from '../../functions/portfolio'
 
-function PortfolioContainer({id, category, name, description, LiveDemo, LiveDemoAdrress, SourceCode, SourceCodeAddress}) {
+function PortfolioContainer({id, category, name, description, LiveDemo, LiveDemoAdrress, SourceCode, SourceCodeAddress, imageUrl}) {
 
   const [icon, setIcon] = useState(null)
   const [color, setColor] = useState(null)
@@ -13,10 +13,11 @@ function PortfolioContainer({id, category, name, description, LiveDemo, LiveDemo
     
     <div className="p_content">
 
+      <div className="p_img"> <img src={imageUrl} alt={name} /> </div>
       <div className="p_name"> { name } </div>
       <div className="description">{ description }</div>
 
-      <div className="capsule_buttons">
+      <div className="port_btn capsule_buttons">
         {
           LiveDemo ? <a href = { LiveDemoAdrress } className={ LiveDemo && SourceCode ? "capsule_btn capsule_btn_left": "capsule_btn_single capsule_btn" } >Live Demo</a> : null
         }

@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    max-width: 80%;
+    width: 80%;
     margin: auto auto;
     overflow: hidden;
 }
@@ -72,7 +72,7 @@
 
 .text-right .card,
 .text-left .card{
-    min-width: 20rem;
+    min-width: 27rem;
     max-width: 50%;
     background: transparent;
     box-shadow: unset;
@@ -99,29 +99,11 @@
     font-weight: 600;
 }
 
-@media (max-width: 787px){
-    .text-right .card,
-    .text-left .card{
-        min-width: 30rem;
-}
-
-    .q,
-  .subtitle{
-      text-align: center;
-  }  
-}
-
-@media (max-width: 400px){
-    .text-right .card,
-    .text-left .card{
-        min-width: 21rem;
-}
-
 .q,
 .subtitle{
     text-align: left;
 }  
-}
+    
 
 .benefits{
     position: relative;
@@ -139,7 +121,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: .7rem 2rem;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 .b-q{
@@ -157,6 +139,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 1rem;
     padding: 1rem;
     border-radius: .75rem;
     box-shadow: 
@@ -228,6 +211,35 @@ p.b-subtitle{
 }
 
 
+@media (max-width: 787px){
+    .about-container{
+        width: 100%;
+        padding: 0 3rem;
+    }
+    
+    .text-right .card,
+    .text-left .card{
+        min-width: 27rem;
+}
+
+    .q,
+  .subtitle{
+      text-align: center;
+  }  
+}
+
+@media (max-width: 400px){
+    .text-right .card,
+    .text-left .card{
+        min-width: 19rem;
+}
+
+
+.text-right .img img,
+.text-left .img img{
+    min-width: 16rem;
+}
+}
 
 
 

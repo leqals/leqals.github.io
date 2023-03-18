@@ -39,6 +39,7 @@ function Header() {
   return ( 
     <>
      <div className="header">
+       <img src={Logo} alt="Dev_Legals Logo" />
        <div className="header-container">
          <div className="links">
            <ul className="nav-list" ref={NavList} >

@@ -1,22 +1,10 @@
 import solarSystem from '../../assets/images/solarSystem.jpg'
-// import crypto from '../../assets/images/cryto.jpg'
-// import MusicStudio from '../../assets/images/Music-studio.jpg'
 import bgImg from '../../assets/images/background-img.jpg'
 import Me3 from '../../assets/images/img-me-3.jpg'
-import {FaPython, FaConnectdevelop} from 'react-icons/fa'
-import {SiSelenium} from 'react-icons/si'
 
-import {SiJavascript, SiDjango, SiWordpress} from 'react-icons/si'
-import {FaReact} from 'react-icons/fa'
-
-
-import {FaFacebook, FaWhatsapp, FaLinkedin, FaGithub} from 'react-icons/fa'
-import {SiFiverr, SiUpwork} from 'react-icons/si'
-
-import {FaHandshake, FaPiggyBank, FaClock} from 'react-icons/fa'
+import {SiSelenium, SiJavascript, SiDjango, SiWordpress, SiFiverr, SiUpwork} from 'react-icons/si'
+import {FaReact, FaPython, FaConnectdevelop, FaFacebook, FaWhatsapp, FaLinkedin, FaGithub, FaHandshake, FaPiggyBank, FaClock, FaHome, FaBurn, FaTelegram} from 'react-icons/fa'
 import {TiThumbsOk} from 'react-icons/ti'
-
-import {FaHome, FaBurn, FaTelegram} from 'react-icons/fa'
 import {FiUser} from 'react-icons/fi'
 
 
@@ -200,28 +188,6 @@ export const services = [
           SourceCodeAddress: "",
           imageUrl : solarSystem
       },
-      // {
-      //    id : 3,
-      //    category : "Web Development",
-      //    name : "Music Promotion Platform (MusikBank.com)",
-      //    libraries : ["Wordpress"],
-      //    LiveDemo: true,
-      //    LiveDemoAdrres: "",
-      //    SourceCode: true,
-      //    SourceCodeAddress: "",
-      //    imageUrl: MusicStudio
-      // },
-      // {
-      //     id : 7,
-      //     category : "Web Scraping",
-      //     name : "On Page Image Collector App using KivyMd With Image Extension Filter",
-      //     libraries : ["BeautifulSoup", "Requests", "Selenium", "Kivy", "KivyMD"],
-      //     LiveDemo: true,
-      //     LiveDemoAdrress: "",
-      //     SourceCode: true,
-      //     SourceCodeAddress: "",
-      //     imageUrl : bgImg
-      // },
       {
           id : 8,
           category : "Web Development",

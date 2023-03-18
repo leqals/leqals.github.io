@@ -12,8 +12,10 @@ function Hero() {
       <div className="hero-wrapper">
         <div className="hero-container">
           <div className="hero-content" >
-            <h3>Hi there!
-              <div>I am <span className="name">Dev.Legals</span></div> 
+            <h3>Hi there! I am 
+              <div>
+                <p data-name="Dev.Legals" className="name">Dev.Legals</p>
+              </div> 
             </h3>
 
             <p className="intro-subtitle">

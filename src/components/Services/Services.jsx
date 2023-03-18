@@ -15,9 +15,8 @@ function Services() {
             <div className="services-container flex center">
               {
                   services.map( ({id, title, subtitle, serviceIcon, pd, skillUse, icolor}) => <Service key={id} title={title} subtitle={subtitle} icon={serviceIcon} pd={pd} skillUse={skillUse} icolor={icolor}/>)
-              }
+                }
             </div>
-           
         </div>
     </div>
   )

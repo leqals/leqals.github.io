@@ -174,7 +174,7 @@ h1, h2, h3{
   font-weight: 700;
   border-radius: 1.85rem;
   outline: none;
-  transition: .25s ease-out;
+  transition: .2s ease-in-out;
 }
 
 
@@ -195,7 +195,7 @@ h1, h2, h3{
 .cta-fill:hover{
   border: none;
   background-color: var(--clr-acc);
-  transform: scale(1.15);
+  transform: scale(1.1);
   color: var(--clr-dark) ;
 }
 
@@ -251,6 +251,20 @@ h1, h2, h3{
   
 }
 
+.page_name{
+  margin: 3rem 0 0 15vw;
+  font-weight: 700;
+  color: var(--clr-acc-light);
+}
+
+@media (max-width: 1100px){
+  .page_name{
+      margin: 0;
+      padding-top: 5rem;
+      padding-left: 10%;
+  }
+}
+
 .capsule_buttons{
   position: absolute;
   display: flex;
@@ -262,13 +276,14 @@ h1, h2, h3{
   bottom: .5rem;
   left: 0;
 }
-
+ 
 .capsule_btn{
   color: var(--clr-light);
   padding: .2rem .4rem;
   font-weight: 500;
   font-size: var(--fs-sm);
   outline: none;
+  border: none;
   transition: .25s ease-out;
 }
 
@@ -339,7 +354,7 @@ form.full_form{
   align-items: flex-start;
   flex-direction: column;
   flex: 2;
-  gap: .8rem;
+  /* gap: .8rem; */
   width: 100%;
   --clr-text: #B8AEC1;
   --clr-btn-bg: #171730;
@@ -354,6 +369,7 @@ form.full_form{
   padding: 0;
   border-radius: 2rem;
   width: 100%;
+  margin: .8rem auto;
   background: var(--clr-btn-bg);
 }
 
