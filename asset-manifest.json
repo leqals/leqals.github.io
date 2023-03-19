@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5201a89.css",
-    "main.js": "/static/js/main.093de338.js",
+    "main.css": "/static/css/main.fdd1c2c2.css",
+    "main.js": "/static/js/main.300230fc.js",
     "static/media/destop.jpg": "/static/media/destop.5c1ade64b15631d8c82a.jpg",
     "static/media/youtube_downloader.png": "/static/media/youtube_downloader.12caf4ddc589effed117.png",
-    "static/media/my_resume.pdf": "/static/media/my_resume.13ce31f98dca10920b50.pdf",
     "static/media/laptop-png.png": "/static/media/laptop-png.634a9df5361b4f6414fa.png",
-    "static/media/img-me-3.jpg": "/static/media/img-me-3.73c16462893f52e4b86e.jpg",
+    "static/media/resume.pdf": "/static/media/resume.dbc2332fefd668c905a0.pdf",
     "static/media/background-img.jpg": "/static/media/background-img.e61aa5846afa2fe5c7ba.jpg",
     "static/media/todo.PNG": "/static/media/todo.f22d2c6263b452390b84.PNG",
     "static/media/devProduction.svg": "/static/media/devProduction.e0027e0e33c77d5d6e6800e05b9430cf.svg",
@@ -14,11 +13,11 @@
     "static/media/portfolio.svg": "/static/media/portfolio.258d140cbe91efa45d08bfd4ea716e20.svg",
     "index.html": "/index.html",
     "static/media/Asset 2.svg": "/static/media/Asset 2.49139b788b0c68d8c1115be1972a532b.svg",
-    "main.c5201a89.css.map": "/static/css/main.c5201a89.css.map",
-    "main.093de338.js.map": "/static/js/main.093de338.js.map"
+    "main.fdd1c2c2.css.map": "/static/css/main.fdd1c2c2.css.map",
+    "main.300230fc.js.map": "/static/js/main.300230fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5201a89.css",
-    "static/js/main.093de338.js"
+    "static/css/main.fdd1c2c2.css",
+    "static/js/main.300230fc.js"
   ]
 }
